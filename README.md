@@ -2,6 +2,10 @@
 The synonym for thai (open source &amp; open data)
 
 run synonym.py
+```
+Text : อ้วน
+synonym : อ้วนจ้ำม่ำ|อวบอ้วน|อ้วนท้วน|อ้วนพี|จ้ำม่ำ|ท้วม|เจ้าเนื้อ|อวบ|อวบอั๋น|อวบอัด
+```
 
 ## License Dataset
 
