@@ -1,4 +1,4 @@
-# synonym-crawler
+# Thai synonym
 The synonym for thai (open source &amp; open data)
 
 ## License Dataset
