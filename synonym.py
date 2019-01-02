@@ -21,9 +21,11 @@ with open('data.csv') as csv_file:
 			key['synonym']=d
 			temp.append(key)
 data["data"]=temp
+def search(word):
+	return [a['synonym'] for a in data['data'] if a['word']==word]
 while True:
 	text=input("Text : ")
-	get=[a['synonym'] for a in data['data'] if a['word']==text]
+	get=search(text)
 	if get!=[]:
 		print("synonym : "+'|'.join(get))
 	else:
