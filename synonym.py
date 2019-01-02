@@ -23,10 +23,12 @@ with open('data.csv') as csv_file:
 data["data"]=temp
 def search(word):
 	return [a['synonym'] for a in data['data'] if a['word']==word]
-while True:
-	text=input("Text : ")
-	get=search(text)
-	if get!=[]:
-		print("synonym : "+'|'.join(get))
-	else:
-		print("not found")
+
+if __name__ == "__main__":
+	while True:
+		text=input("Text : ")
+		get=search(text)
+		if get!=[]:
+			print("synonym : "+'|'.join(get))
+		else:
+			print("not found")
