@@ -3,12 +3,12 @@ import csv
 data={}
 temp=[]
 i=0
-with open('data.csv') as csv_file:
+with open('data.csv','r',encoding="utf-8-sig") as csv_file:
 	csv_reader = csv.reader(csv_file, delimiter=',')
 	next(csv_reader, None)
 	for row in csv_reader:
-		for d in [i for i in row[1].split("|") if i!=""]:
-			for t in [i for i in row[1].split("|") if i!="" and i!=d]:
+		for d in [i for i in row[-1].split("|") if i!=""]:
+			for t in [i for i in row[-1].split("|") if i!="" and i!=d]:
 				key={}
 				key['word']=d
 				key['synonym']=t
