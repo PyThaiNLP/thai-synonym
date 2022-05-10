@@ -9,9 +9,9 @@ synonym : อ้วนจ้ำม่ำ|อวบอ้วน|อ้วนท�
 
 ## License Dataset
 
-[![สัญญาอนุญาตของครีเอทีฟคอมมอนส์](https://i.creativecommons.org/l/by/3.0/th/88x31.png)]
+[![สัญญาอนุญาตของครีเอทีฟคอมมอนส์](https://licensebuttons.net/p/zero/1.0/88x31.png)]
 
-licensed dataset under [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/)
+licensed dataset under [CC-0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## License
 
