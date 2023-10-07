@@ -28,7 +28,10 @@ def search(word):
 if __name__ == "__main__":
 	while True:
 		text=input("Text : ")
-		get=search(text)
+		text_list=search(text)
+		get = []
+		get.append(text_list)
+		print('eiei=',get)
 		if get!=[]:
 			print("synonym : "+'|'.join(get))
 		else:
