@@ -1,0 +1,3 @@
+This Thai thesaurus provides Thai synonyms data generated from the dataset of
+PyThaiNLP thai-synonym project.
+    https://github.com/PyThaiNLP/thai-synonym
